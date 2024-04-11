@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:group_sort/Core/Routes/app_routes.dart';
 import 'package:group_sort/generated/l10n.dart';
 
 class HomeView extends StatelessWidget {
@@ -10,7 +11,29 @@ class HomeView extends StatelessWidget {
       appBar: AppBar(
         title: Text(S.of(context).home),
       ),
-      body: Container(),
+      body: const HomeBody(),
+    );
+  }
+}
+
+class HomeBody extends StatelessWidget {
+  const HomeBody({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, AppRoutes.createGroup);
+              },
+              child: Text(S.of(context).create_group))
+        ],
+      ),
     );
   }
 }

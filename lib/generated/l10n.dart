@@ -59,6 +59,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Create Group`
+  String get create_group {
+    return Intl.message(
+      'Create Group',
+      name: 'create_group',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
