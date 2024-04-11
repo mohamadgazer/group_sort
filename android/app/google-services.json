@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "999927847051",
+    "project_id": "call-distribution",
+    "storage_bucket": "call-distribution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999927847051:android:860130c5f2bb8d2ae49c8e",
+        "android_client_info": {
+          "package_name": "com.example.group_sort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999927847051-f1aufvqj5ambjcu98ulh6dbht97c5h21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChKTDCwEL9usbmilFgyA2gdycmaoJ2yyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999927847051-49t966vg844ekf8hgj4n9mh23bjsgo55.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999927847051-33imv4189f39bhimsk8nfc5212nlam26.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiktokFlutterClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999927847051:android:d59af202f58ee96ce49c8e",
+        "android_client_info": {
+          "package_name": "com.example.tiktok_flutter_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999927847051-f1aufvqj5ambjcu98ulh6dbht97c5h21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChKTDCwEL9usbmilFgyA2gdycmaoJ2yyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999927847051-49t966vg844ekf8hgj4n9mh23bjsgo55.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999927847051-33imv4189f39bhimsk8nfc5212nlam26.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tiktokFlutterClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
