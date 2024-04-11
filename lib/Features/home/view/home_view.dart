@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:group_sort/generated/l10n.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -7,7 +8,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Screen'),
+        title: Text(S.of(context).home),
       ),
       body: Container(),
     );
