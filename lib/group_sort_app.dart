@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:group_sort/Core/Routes/app_routes.dart';
+import 'package:group_sort/Core/Routes/routing.dart';
 
 class GroupSortApp extends StatelessWidget {
-  const GroupSortApp({super.key});
+  final AppRouting routing;
+  const GroupSortApp({super.key, required this.routing});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      initialRoute: AppRoutes.home,
+      onGenerateRoute: routing.generateRoute,
     );
   }
 }
